@@ -1,10 +1,10 @@
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
 /**
- *main- Serves as the entry point for the program
+ * main - Entry point
  *
- *Return: By default rturns zero if no errors otherwise returns non-zero value.
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -12,5 +12,7 @@ int main(void)
 
 	for (ch = 'a'; ch <= 'z'; ch++)
 		putchar(ch);
+		printf("\n");
+
 	return (0);
 }
