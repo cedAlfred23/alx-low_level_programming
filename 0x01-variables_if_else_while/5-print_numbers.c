@@ -8,7 +8,7 @@ int main(void)
 	int d;
 
 	for (d = 0; d < 10; d++)
-		print(d);
-	printf('\n');
+		printf("%d", d);
+	putchar('\n');
 	return (0);
 }
