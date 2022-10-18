@@ -1,8 +1,8 @@
-#include <stdio.h>
-#include <string.h>
+#include <main.h>
+
 /**
  *main - prints the string "_putchar" to the output
- *return: 0 on success
+ *Return: 0 on success
  */
 int main(void)
 {
@@ -11,7 +11,7 @@ int main(void)
 
 	for (i = 0 ; i < 8 ; i++)
 	{
-		putchar(str[i]);
+		_putchar(str[i]);
 	}
 	printf("\n");
 	return (0);
