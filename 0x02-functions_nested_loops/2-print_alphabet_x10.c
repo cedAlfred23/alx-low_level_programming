@@ -20,4 +20,5 @@ int main(void)
 
 		t++;
 	}
+	return (0);
 }
