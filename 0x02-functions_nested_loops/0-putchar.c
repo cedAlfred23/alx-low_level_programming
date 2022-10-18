@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <string.h>
-/*
+/**
  *main - prints the string "_putchar"
  *return: 0 on success
- * */
+ */
 int main(void)
 {
 	char str[] = "_putchar";
@@ -13,5 +13,6 @@ int main(void)
 	{
 		putchar(str[i]);
 	}
+	putchar("\n");
 	return (0);
 }
