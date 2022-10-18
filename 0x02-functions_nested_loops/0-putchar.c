@@ -1,14 +1,17 @@
 #include <stdio.h>
 #include <string.h>
 /*
- *main
- *return 0 if successful
+ *main - prints the string "_putchar"
+ *return: 0 on success
  * */
 int main(void)
 {
-	char str[10] = "_putchar";
-	
-	for (int i = 0 ; i < strlen(str) ; i++)
-		putchar(str[i]);
-	return 0;
+	char str[] = "_putchar";
+	int i;
+
+	for (i = 0 ; i < 8 ; i++)
+	{
+		_putchar(str[i]);
+	}
+	return (0);
 }
