@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * main function prints 10 times the alphabet, in lowercase, followed by a new line.
