@@ -10,7 +10,7 @@ void times_table(void)
 {
 	int i = 0;
 	int j = 0;
-	int k = 0;
+	int k;
 
 	while (i <= 9)
 	{
@@ -21,7 +21,7 @@ void times_table(void)
 			printf("%d ", k);
 			j++;
 		}
-		_putchat('\n');
+		_putchar('\n');
 		i++;
 	}
 }
