@@ -8,15 +8,20 @@
  */
 void times_table(void)
 {
-	int n = 9;
+	int i = 0;
 	int j = 0;
+	int k = 0;
 
-	while (j <= 12)
+	while (i <= 9)
 	{
-		int r = n * j;
+		while (j <= 9)
+		{
+			int k = i * j;
 
-		printf("%d * %d = %d", n, j, r);
-		j++;
+			printf("%d ", k);
+			j++;
+		}
+		_putchat('\n');
+		i++;
 	}
-
 }
