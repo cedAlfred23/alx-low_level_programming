@@ -13,9 +13,8 @@ int main(void)
 
         i = 0;
 	
-	/*This loop gives an infinite loop
-	 * because the value of i is always smaller than 10
-	 */
+	//The value of i is always smaller than 10
+
         while (i < 10)
         {
                 putchar(i);
