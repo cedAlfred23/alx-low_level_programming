@@ -14,14 +14,11 @@ int main(void)
 	i = 0;
 
 	/**
-	* The value of i is always smaller than 10
-	* this causes infinite loop
+	* while (i < 10)
+	* {
+	*	putchar(i);
+	* }
 	*/
-
-	while (i < 10)
-	{
-		putchar(i);
-	}
 
 	printf("Infinite loop avoided! \\o/\n");
 
